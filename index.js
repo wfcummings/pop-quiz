@@ -31,8 +31,10 @@ const selection2 = Number(answer2);
 
 if (Number.isNaN(selection2)) {
   alert("You must enter a number.");
+  exit(answer2);
 } else if (selection2 < 1 || selection2 > 2) {
   alert("Your answer must be either number 1 or 2.");
+  exit(answer2);
 } else if (selection2 === 2) {
   score += 1;
 }
@@ -45,8 +47,10 @@ const selection3 = Number(answer3);
 
 if (Number.isNaN(selection3)) {
   alert("You must enter a number.");
+  exit(answer3);
 } else if (selection3 < 1 || selection3 > 2) {
   alert("Your answer must be either number 1 or 2.");
+  exit(answer3);
 } else if (selection3 === 2) {
   score += 1;
 }
