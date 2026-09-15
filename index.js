@@ -56,8 +56,12 @@ if (Number.isNaN(selection3)) {
 } else if (selection3 < 1 || selection3 > 2) {
   alert("Your answer must be either number 1 or 2.");
   exit(answer3);
-} else if (selection3 === 2) {
+} else if (selection3 === 1) {
   score += 1;
 } else {
   alert("Incorrect");
 }
+
+alert(
+  `You have completed the NFL quiz. Your total score is ${score} / ${totalquestions}!`,
+);
