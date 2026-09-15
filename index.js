@@ -19,6 +19,8 @@ if (Number.isNaN(selection1)) {
   exit(answer1);
 } else if (selection1 === 2) {
   score += 1;
+} else {
+  alert("Incorrect");
 }
 
 ///////
@@ -37,6 +39,8 @@ if (Number.isNaN(selection2)) {
   exit(answer2);
 } else if (selection2 === 2) {
   score += 1;
+} else {
+  alert("Incorrect");
 }
 
 /////
@@ -54,4 +58,6 @@ if (Number.isNaN(selection3)) {
   exit(answer3);
 } else if (selection3 === 2) {
   score += 1;
+} else {
+  alert("Incorrect");
 }
