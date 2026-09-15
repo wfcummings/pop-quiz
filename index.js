@@ -40,9 +40,10 @@ if (Number.isNaN(selection2)) {
 }
 
 /////
-const answer3 = prompt(
-  "Who is the quarterback of the Philadelphia Eagles?\n1)Jalen Hurts \n2) Tom Brady",
-);
+const answer3 = prompt(`Who is the quarterback of the Philadelphia Eagles?
+  [1] Jalen Hurts
+  [2] Tom Brady
+`);
 const selection3 = Number(answer3);
 
 if (Number.isNaN(selection3)) {
