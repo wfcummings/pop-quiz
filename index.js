@@ -65,3 +65,13 @@ if (Number.isNaN(selection3)) {
 alert(
   `You have completed the NFL quiz. Your total score is ${score} / ${totalquestions}!`,
 );
+
+if (score === 0) {
+  alert("Poor effort, watch more sports.");
+} else if (score === 1) {
+  alert("Good try. You will do better next time1");
+} else if (score === 2) {
+  alert("Great effort! You only missed 1 question");
+} else {
+  alert("Perfection! You got them all right!");
+}
